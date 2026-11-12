@@ -1,0 +1,16 @@
+{
+  "name": "stem-path",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs src",
+    "build": "node build.mjs",
+    "preview": "node server.mjs dist",
+    "deploy:preview": "vercel",
+    "deploy:production": "vercel --prod"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0"
+  }
+}

@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f9ff">
+    <meta name="description" content="STEM PATH đồng hành cùng học sinh lớp 12 khám phá sở thích, tìm hiểu nhóm ngành STEM và lập kế hoạch tiếp theo.">
+    <title>STEM PATH — Hành trình chọn ngành</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23197fbb'/%3E%3Cpath d='M11 27c5-10 13-10 18-14M11 27h16' fill='none' stroke='%23ffffff' stroke-width='2.4' stroke-linecap='round'/%3E%3Ccircle cx='11' cy='27' r='3' fill='%23ffca70'/%3E%3Ccircle cx='29' cy='13' r='3' fill='%238b75d8'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header class="site-header">
+      <div class="header-inner wrap">
+        <a class="brand" href="#home" aria-label="STEM PATH, về đầu trang">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none">
+              <path d="M10 28c5-10 13-10 20-16M10 28h17" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+              <circle cx="10" cy="28" r="3.1" fill="#FFCA70"/>
+              <circle cx="30" cy="12" r="3.1" fill="#8B75D8"/>
+              <circle cx="27" cy="28" r="2.3" fill="#60D5BC"/>
+            </svg>
+          </span>
+          <span class="brand-copy"><strong>STEM PATH</strong><small>Hành trình chọn ngành</small></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Mở menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+          <a href="#journey">Hành trình</a>
+          <a href="#assessment">Khám phá mình</a>
+          <a href="#explore">Nhóm ngành</a>
+          <a href="#my-plan">Kế hoạch</a>
+          <a class="nav-cta" href="#assessment">Bắt đầu <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad" id="home">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span>Dành cho học sinh lớp 12</div>
+            <h1>Điều bạn thích.<br><span>Hướng bạn chọn.</span></h1>
+            <p class="hero-lede">STEM PATH đồng hành để em hiểu sở thích, mở rộng lựa chọn ngành và tự lập kế hoạch tiếp theo. Mỗi gợi ý là điểm khởi đầu để tìm hiểu thêm — quyết định vẫn là của em.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#assessment">Bắt đầu khám phá <span aria-hidden="true">→</span></a>
+              <a class="button button-quiet" href="#explore">Xem khối môn</a>
+            </div>
+            <div class="hero-pills" aria-label="Hành trình khám phá">
+              <span><strong>10</strong> câu tự khám phá</span>
+              <span><strong>4</strong> nhóm ngành STEM</span>
+            </div>
+            <div class="hero-note"><span class="note-check" aria-hidden="true">✓</span> Từng bước rõ ràng, không cần phải biết ngay câu trả lời.</div>
+          </div>
+
+          <div class="journey-art">
+            <img class="hero-illustration" src="assets/stem-path-hero.png" alt="Ba học sinh cùng khám phá công nghệ, khoa học và dữ liệu trong phòng STEM">
+            <div class="art-topline"><span class="art-kicker">KHÁM PHÁ THEO CÁCH CỦA EM</span><span class="art-orbit" aria-hidden="true">✳</span></div>
+            <div class="art-steps" aria-label="Các chặng trong hành trình">
+              <a class="art-step" href="#assessment"><span class="art-step-number">01</span><span class="art-step-copy"><strong>Hiểu mình</strong><small>10 câu hỏi nhẹ nhàng</small></span><span class="art-step-mark" aria-hidden="true">↗</span></a>
+              <a class="art-step" href="#recommendations"><span class="art-step-number">02</span><span class="art-step-copy"><strong>Tìm nhóm ngành</strong><small>Mở rộng lựa chọn STEM</small></span><span class="art-step-mark" aria-hidden="true">↗</span></a>
+              <a class="art-step" href="#explore"><span class="art-step-number">03</span><span class="art-step-copy"><strong>Chọn khối môn</strong><small>Biết nên học gì trước</small></span><span class="art-step-mark" aria-hidden="true">↗</span></a>
+              <a class="art-step" href="#my-plan"><span class="art-step-number">04</span><span class="art-step-copy"><strong>Lên kế hoạch</strong><small>Bắt đầu từ việc nhỏ</small></span><span class="art-step-mark" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="art-bottom"><span class="art-spark" aria-hidden="true">✳</span><span>Tò mò là bước đầu tiên</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="facts-strip" aria-label="Thông tin về hành trình STEM PATH">
+        <div class="wrap facts-grid">
+          <div class="fact fact-highlight"><span class="fact-number">71<span>/334</span></span><p>học sinh khối 12 được ghi nhận chọn ngành STEM</p><small>Năm học 2025–2026 · THPT Hoàng Hoa Thám</small></div>
+          <div class="fact"><span class="fact-label">BẮT ĐẦU TỪ BẢN THÂN</span><p>5 góc nhìn giúp em hiểu điều mình quan tâm và muốn phát triển.</p></div>
+          <div class="fact"><span class="fact-label">ĐI TỪNG BƯỚC</span><p>4 chặng nối tiếp từ khám phá đến một kế hoạch có thể làm được.</p></div>
+          <div class="fact fact-source"><span class="fact-label">DỮ LIỆU DỰ ÁN</span><p>Thống kê nội bộ từ tài liệu dự án; không đại diện cho học sinh ở nơi khác.</p></div>
+        </div>
+      </section>
+
+      <section class="section-pad journey-section" id="journey">
+        <div class="wrap">
+          <div class="section-heading heading-split">
+            <div><div class="eyebrow"><span class="eyebrow-dot"></span>Không cần đi một mình</div><h2>Mỗi bước mở ra<br><span>một điều rõ hơn.</span></h2></div>
+            <p>Chưa biết mình hợp ngành nào cũng không sao. Em có thể bắt đầu bằng một câu hỏi nhỏ, rồi kiểm chứng lựa chọn bằng thông tin và trải nghiệm thật.</p>
+          </div>
+          <div class="journey-cards">
+            <article class="journey-card journey-card-one"><span class="card-index">01 / HIỂU MÌNH</span><span class="card-symbol symbol-mint" aria-hidden="true">○</span><h3>Nhận ra điều em quan tâm</h3><p>Nhìn lại sở thích, sự tự tin và cách em thích giải quyết vấn đề.</p><a href="#assessment" class="text-link">Thử tự khám phá <span aria-hidden="true">→</span></a></article>
+            <article class="journey-card journey-card-two"><span class="card-index">02 / TÌM NGÀNH</span><span class="card-symbol symbol-blue" aria-hidden="true">⌁</span><h3>Mở rộng cánh cửa STEM</h3><p>Tìm hiểu những nhóm ngành và cách kiến thức được ứng dụng trong đời sống.</p><a href="#recommendations" class="text-link">Xem nhóm ngành <span aria-hidden="true">→</span></a></article>
+            <article class="journey-card journey-card-three"><span class="card-index">03 / KIỂM CHỨNG</span><span class="card-symbol symbol-ochre" aria-hidden="true">⌖</span><h3>Đối chiếu với điều kiện thật</h3><p>Xem các môn học và kiểm tra thông tin tuyển sinh từ nguồn chính thức.</p><a href="#explore" class="text-link">Tra cứu khối môn <span aria-hidden="true">→</span></a></article>
+            <article class="journey-card journey-card-four"><span class="card-index">04 / LÊN KẾ HOẠCH</span><span class="card-symbol symbol-teal" aria-hidden="true">↗</span><h3>Biến lựa chọn thành hành động</h3><p>Ghi lại việc cần làm, điều cần tìm hiểu và thời điểm em muốn bắt đầu.</p><a href="#my-plan" class="text-link">Tạo kế hoạch <span aria-hidden="true">→</span></a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad assessment-section" id="assessment">
+        <div class="wrap assessment-layout">
+          <div class="assessment-intro">
+            <div class="eyebrow"><span class="eyebrow-dot"></span>Chặng 01 · Hiểu mình</div>
+            <h2>Thử lắng nghe<br><span>điều em nghĩ.</span></h2>
+            <p>Trả lời theo cảm nhận hiện tại. Không có đáp án đúng hay sai; kết quả giúp em có thêm câu hỏi để suy ngẫm, không quyết định ngành thay em.</p>
+            <div class="assessment-meta"><span><b>10</b> câu hỏi mẫu</span><span><b>1–5</b> mức độ đồng ý</span><span><b>~4'</b> để hoàn thành</span></div>
+            <div class="notice notice-soft"><span class="notice-icon" aria-hidden="true">i</span><p><strong>Bản mô phỏng.</strong> Câu hỏi được viết theo 5 tiêu chí trong đặc tả website; chưa phải bộ câu hỏi nghiên cứu đã được nhóm duyệt hoặc kiểm định.</p></div>
+          </div>
+
+          <div class="assessment-card" id="assessment-card">
+            <div class="assessment-start" id="assessment-start">
+              <div class="assessment-card-top"><span class="section-label">TỰ KHÁM PHÁ · BẢN THỬ</span><span class="tiny-orbit" aria-hidden="true">✳</span></div>
+              <div class="start-illustration" aria-hidden="true"><span class="start-circle circle-a"></span><span class="start-circle circle-b"></span><span class="start-circle circle-c"></span><span class="start-path"></span><span class="start-center">?</span></div>
+              <h3>Một vài câu hỏi để bắt đầu</h3>
+              <p>Em sẽ nhìn lại 5 khía cạnh: hứng thú, tự tin, tư duy, động lực và sự chủ động.</p>
+              <button class="button button-primary button-wide" id="start-assessment" type="button">Bắt đầu với câu 1 <span aria-hidden="true">→</span></button>
+              <div class="privacy-inline"><span aria-hidden="true">⌂</span> Câu trả lời chỉ lưu trên thiết bị này.</div>
+            </div>
+
+            <div class="survey-view" id="survey-view" hidden>
+              <div class="survey-top"><span class="section-label" id="question-count">CÂU 1 / 10</span><button class="plain-button" id="exit-survey" type="button">Thoát</button></div>
+              <div class="progress-track" role="progressbar" aria-label="Tiến độ khảo sát" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="progress-fill"></span></div>
+              <div class="question-category" id="question-category"></div>
+              <h3 class="question-text" id="question-text" tabindex="-1"></h3>
+              <p class="scale-hint">Mức độ giống với em lúc này</p>
+              <div class="likert-options" id="likert-options" role="group" aria-label="Chọn mức độ đồng ý"></div>
+              <div class="likert-ends"><span>Chưa giống mình</span><span>Rất giống mình</span></div>
+              <p class="survey-error" id="survey-error" role="status" aria-live="polite"></p>
+              <div class="survey-actions"><button class="button button-outline" id="previous-question" type="button">← Quay lại</button><button class="button button-primary" id="next-question" type="button">Tiếp tục <span aria-hidden="true">→</span></button></div>
+            </div>
+
+            <div class="assessment-result" id="assessment-result" hidden>
+              <div class="result-mark" aria-hidden="true">✓</div>
+              <span class="section-label">TÓM TẮT TỰ ĐÁNH GIÁ</span>
+              <h3>Em đã dành thời gian<br>để hiểu mình hơn.</h3>
+              <p class="result-explainer">Các điểm dưới đây tóm tắt 5 khía cạnh em tự đánh giá. Từ đó STEM PATH xếp các nhóm ngành để em tìm hiểu trước — không kết luận ngành nào chắc chắn phù hợp.</p>
+              <div class="result-bars" id="result-bars"></div>
+              <div class="result-recommendations" id="result-recommendations" aria-live="polite"></div>
+              <details class="result-method">
+                <summary>Cách tạo gợi ý</summary>
+                <p>Điểm gợi ý 1–5 tổng hợp 10 câu qua 5 khía cạnh; mỗi nhóm ngành có trọng số khác nhau. Đây là logic thử nghiệm để mở đầu việc tìm hiểu, chưa phải thang đo đã được kiểm định hay duyệt.</p>
+              </details>
+              <div class="notice notice-soft result-note"><span class="notice-icon" aria-hidden="true">i</span><p>Hãy xem các khối môn của nhóm được gợi ý, rồi đối chiếu với sở thích, học lực và thông tin chính thức của trường.</p></div>
+              <div class="result-actions"><a class="button button-primary" href="#recommendations">Xem các nhóm ngành <span aria-hidden="true">→</span></a><button class="plain-button" id="retake-assessment" type="button">Làm lại từ đầu</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad pathways-section" id="recommendations">
+        <div class="wrap">
+          <div class="section-heading heading-split">
+            <div><div class="eyebrow"><span class="eyebrow-dot"></span>Chặng 02 · Tìm ngành</div><h2>Những hướng đi<br><span>đáng để khám phá.</span></h2></div>
+            <p>Sau khi hoàn thành 10 câu, các nhóm được gợi ý theo câu trả lời của em. Bảng bên dưới xếp hạng nhóm ngành theo lựa chọn Chặng 02 của tất cả người dùng. Khi bạn chọn, hệ thống gửi mã nhóm và mã ngẫu nhiên của trình duyệt để tổng hợp; không gửi tên hay câu trả lời khảo sát.</p>
+          </div>
+          <div class="pathway-grid" id="pathway-grid">
+            <article class="pathway-card pathway-navy">
+              <div class="pathway-top"><span class="pathway-symbol" aria-hidden="true">&lt;/&gt;</span><span class="pathway-number">01</span></div>
+              <span class="pathway-kicker">MÁY TÍNH · HỆ THỐNG</span><h3>Công nghệ<br>& máy tính</h3>
+              <p>Phần mềm, hệ thống số, trí tuệ nhân tạo và cách công nghệ giải quyết vấn đề thực tế.</p>
+              <button class="pathway-add" type="button" data-priority-track="Công nghệ & máy tính">Thêm vào danh sách <span aria-hidden="true">+</span></button>
+            </article>
+            <article class="pathway-card pathway-sage">
+              <div class="pathway-top"><span class="pathway-symbol" aria-hidden="true">⌘</span><span class="pathway-number">02</span></div>
+              <span class="pathway-kicker">THIẾT KẾ · CHẾ TẠO</span><h3>Kỹ thuật<br>& công nghệ</h3>
+              <p>Thiết kế, xây dựng, máy móc và những giải pháp biến ý tưởng thành sản phẩm.</p>
+              <button class="pathway-add" type="button" data-priority-track="Kỹ thuật & công nghệ">Thêm vào danh sách <span aria-hidden="true">+</span></button>
+            </article>
+            <article class="pathway-card pathway-violet">
+              <div class="pathway-top"><span class="pathway-symbol" aria-hidden="true">⌬</span><span class="pathway-number">03</span></div>
+              <span class="pathway-kicker">KHOA HỌC · SỰ SỐNG</span><h3>Khoa học tự nhiên<br>& môi trường</h3>
+              <p>Thí nghiệm, vật liệu, sinh học và cách hiểu sâu hơn về môi trường quanh ta.</p>
+              <button class="pathway-add" type="button" data-priority-track="Khoa học tự nhiên & môi trường">Thêm vào danh sách <span aria-hidden="true">+</span></button>
+            </article>
+            <article class="pathway-card pathway-cream">
+              <div class="pathway-top"><span class="pathway-symbol" aria-hidden="true">∑</span><span class="pathway-number">04</span></div>
+              <span class="pathway-kicker">TOÁN · PHÂN TÍCH</span><h3>Toán ứng dụng<br>& dữ liệu</h3>
+              <p>Mô hình hóa, thống kê và tìm quy luật để đưa ra cách nhìn có căn cứ.</p>
+              <button class="pathway-add" type="button" data-priority-track="Toán ứng dụng & dữ liệu">Thêm vào danh sách <span aria-hidden="true">+</span></button>
+            </article>
+          </div>
+          <section class="pathway-selection" aria-labelledby="selected-tracks-title">
+            <div class="pathway-selection-head">
+              <div>
+                <h3 id="selected-tracks-title">Nhóm ngành được chọn nhiều nhất</h3>
+                <p>Bảng tổng hợp lựa chọn Chặng 02 của mọi người trên hệ thống.</p>
+              </div>
+              <div class="community-stats-meta">
+                <span class="selection-count" id="community-response-count" aria-live="polite">Đang tải thống kê…</span>
+                <button class="stats-refresh-button" id="refresh-community-stats" type="button">Cập nhật</button>
+              </div>
+            </div>
+            <p class="community-stats-note">Mỗi mã trình duyệt được tính tối đa một lần cho mỗi nhóm. Xóa dữ liệu hoặc đổi trình duyệt có thể tạo lượt mới.</p>
+            <p class="community-stats-status" id="community-stats-status" role="status" aria-live="polite"></p>
+            <div class="selection-table-wrap">
+              <table class="selection-table">
+                <thead>
+                  <tr><th scope="col">Hạng</th><th scope="col">Nhóm ngành</th><th scope="col">Lượt chọn</th></tr>
+                </thead>
+                <tbody id="community-stats-list"><tr><td colspan="3">Đang tải bảng thống kê…</td></tr></tbody>
+              </table>
+            </div>
+          </section>
+          <p class="pathway-footnote"><span aria-hidden="true">✳</span> Những nhóm trên giúp em bắt đầu tra cứu; tên ngành, chương trình học và cơ hội nghề nghiệp cần được đối chiếu với từng trường.</p>
+        </div>
+      </section>
+
+      <section class="section-pad library-section" id="explore">
+        <div class="wrap">
+          <div class="library-header">
+            <div><div class="eyebrow"><span class="eyebrow-dot"></span>Chặng 03 · Kiểm chứng</div><h2>Nhóm ngành đi cùng<br><span>khối môn học.</span></h2></div>
+            <div class="library-intro"><p>Mỗi nhóm có môn trọng tâm và môn bổ trợ để em biết nên tìm hiểu gì trước. Đây là gợi ý học tập theo hướng ngành, không phải tổ hợp xét tuyển chính thức.</p><div class="source-chip"><span aria-hidden="true">↗</span> Môn tham chiếu: Vật lí · Hóa học · Sinh học · Tin học · Công nghệ</div></div>
+          </div>
+
+          <div class="library-tools">
+            <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Tìm theo nhóm ngành hoặc môn học</span><input id="combo-search" type="search" placeholder="Tìm nhóm ngành hoặc môn học…" autocomplete="off"></label>
+            <span class="library-count" id="library-count">4 nhóm ngành · khối môn gợi ý</span>
+          </div>
+          <div class="common-foundation"><span class="common-foundation-icon">∑</span><div><span class="common-foundation-label">NỀN TẢNG CHUNG</span><strong>Toán</strong><p>Được đặt làm môn nền tảng để em củng cố xuyên suốt các hướng STEM trong bản mô phỏng.</p></div></div>
+          <div class="combo-grid" id="combo-grid"></div>
+          <div class="empty-search" id="empty-search" hidden><strong>Chưa tìm thấy nhóm hoặc môn học.</strong><span>Thử từ khóa khác, ví dụ “Tin học” hoặc “Sinh học”.</span></div>
+
+          <div class="scholarship-note"><div class="scholarship-mark" aria-hidden="true">i</div><div><strong>Thông tin học phí và học bổng</strong><p>Tài liệu hiện có chưa kèm nguồn tuyển sinh hoặc học bổng đã xác minh. Website sẽ chỉ đăng các thông tin này khi có đường dẫn chính thức và ngày cập nhật.</p></div><a href="#feedback" class="text-link">Góp ý dữ liệu <span aria-hidden="true">→</span></a></div>
+          <p class="data-caveat">Các môn chuyên biệt được nhóm lại từ danh sách môn STEM trong tài liệu dự án; khối môn ở đây chỉ để định hướng tìm hiểu. Điều kiện xét tuyển thay đổi theo ngành, trường và năm — hãy kiểm tra đề án chính thức.</p>
+        </div>
+      </section>
+
+      <section class="section-pad plan-section" id="my-plan">
+        <div class="wrap plan-layout">
+          <div class="plan-intro">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>Chặng 04 · Lên kế hoạch</div>
+            <h2>Một lựa chọn tốt<br><span>bắt đầu bằng bước nhỏ.</span></h2>
+            <p>Ghi lại điều em muốn tìm hiểu. Kế hoạch tự lưu trên thiết bị này để em có thể quay lại và điều chỉnh.</p>
+            <div class="plan-summary"><span class="plan-summary-icon" aria-hidden="true">↗</span><span><strong id="plan-progress-text">0/4 bước đã đánh dấu</strong><small>Không cần hoàn thành tất cả trong một ngày.</small></span></div>
+            <button class="button button-light" id="print-plan" type="button">In hoặc lưu thành PDF <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="plan-card">
+            <div class="plan-card-head"><div><span class="section-label">KẾ HOẠCH CỦA EM</span><h3>Bước tiếp theo là gì?</h3></div><span class="plan-card-mark" aria-hidden="true">✳</span></div>
+            <div class="selected-items" id="selected-items" hidden></div>
+            <div class="plan-steps" id="plan-steps"></div>
+            <div class="plan-storage"><span class="storage-dot"></span><span>Ghi chú kế hoạch lưu trên thiết bị; lựa chọn Chặng 02 được gửi ẩn danh để tổng hợp thống kê chung.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad feedback-section" id="feedback">
+        <div class="wrap feedback-layout">
+          <div><div class="eyebrow"><span class="eyebrow-dot"></span>Cùng hoàn thiện STEM PATH</div><h2>Một góp ý của em<br><span>có thể mở lối.</span></h2></div>
+          <div class="feedback-card">
+            <p>Em thấy hành trình này thế nào? Chia sẻ điều hữu ích hoặc phần em muốn được giải thích rõ hơn.</p>
+            <form id="feedback-form">
+              <label class="field-label" for="feedback-rating">Trải nghiệm của em</label>
+              <select id="feedback-rating" required><option value="">Chọn một mức</option><option>Rất dễ sử dụng</option><option>Khá dễ sử dụng</option><option>Bình thường</option><option>Chưa dễ sử dụng</option></select>
+              <label class="field-label" for="feedback-message">Điều em muốn góp ý <span>(không bắt buộc)</span></label>
+              <textarea id="feedback-message" rows="3" placeholder="Viết vài dòng nếu em muốn…"></textarea>
+              <div class="feedback-submit-row"><button class="button button-primary" type="submit">Gửi góp ý <span aria-hidden="true">→</span></button><span class="feedback-result" id="feedback-result" role="status" aria-live="polite"></span></div>
+            </form>
+            <div class="feedback-demo-note">Bản mô phỏng: góp ý hiện chưa gửi đến nhóm nghiên cứu hoặc lưu trên máy chủ.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <div class="footer-brand"><a class="brand brand-light" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M10 28c5-10 13-10 20-16M10 28h17" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="10" cy="28" r="3.1" fill="#C08A3E"/><circle cx="30" cy="12" r="3.1" fill="#A7C7BE"/><circle cx="27" cy="28" r="2.3" fill="#DDEBE6"/></svg></span><span class="brand-copy"><strong>STEM PATH</strong><small>Hành trình chọn ngành</small></span></a><p>Một dự án nghiên cứu về động lực và xu hướng lựa chọn ngành nghề STEM của học sinh THPT.</p></div>
+        <div class="footer-links"><strong>KHÁM PHÁ</strong><a href="#assessment">Tự khám phá</a><a href="#recommendations">Nhóm ngành</a><a href="#explore">Khối môn</a><a href="#my-plan">Kế hoạch cá nhân</a></div>
+        <div class="footer-note"><strong>LƯU Ý</strong><p>Kết quả tự đánh giá chỉ để tham khảo. Luôn đối chiếu thông tin tuyển sinh với nguồn chính thức của trường.</p><a href="#feedback" class="footer-feedback">Gửi phản hồi <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="wrap footer-bottom"><span>© STEM PATH · THPT Hoàng Hoa Thám</span><span>Thống kê lựa chọn ngành ở dạng tổng hợp</span></div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

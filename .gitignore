@@ -1,0 +1,26 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+.vercel/
+.env
+.env.*
+!.env.example
+
+.vercel
+.openai/hosting.json
+
+# Local credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+*.secrets
+*.credentials
+*.token
+credentials*.json
+service-account*.json
+.secrets/
+.npmrc
+.netrc
+.pypirc
